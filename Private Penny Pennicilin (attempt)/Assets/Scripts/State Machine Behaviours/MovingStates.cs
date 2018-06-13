@@ -41,6 +41,11 @@ public class MovingStates : StateMachineBehaviour {
             Game.anim.SetTrigger("dashTrigger");
         }
 
+        // test
+        if (Input.GetButtonDown("Square")) {
+            //Game.anim.Play("playerAttack_Knives_ground");
+        }
+
         // animator parameters
         Game.anim.SetBool("grounded", Game.playerController.CheckGrounded());
     }
