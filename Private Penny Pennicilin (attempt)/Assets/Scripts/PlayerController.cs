@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour {
 	}
 
     private void Start() {
-        weaponStatus = new int[] { 0, 0, 0 }; // up to 2 upgrades per weapon
+        weaponStatus = new int[] { 0, 0, 0 }; // max lv2 per weapon; -1 is locked weapon
+        //weaponStatus = new int[] { 0, -1, -1 }; 
         weaponSelected = 0; // default weapon
     }
 
@@ -50,5 +51,9 @@ public class PlayerController : MonoBehaviour {
     public Vector2 GetWeaponStatus() {
         // returns weapon status (used in animator for switching states)
         return new Vector2(weaponSelected, weaponStatus[weaponSelected]);
+    }
+
+    public void SwitchWeapon() {
+        while (weaponStatus[weaponSelected + 1 > 2 ? 0 : weaponSelected++] == -1) ;
     }
 }

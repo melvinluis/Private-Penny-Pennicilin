@@ -36,14 +36,15 @@ public class MovingStates : StateMachineBehaviour {
         }
 
         // dash
-        if (Input.GetButtonDown("Circle")) {
+        if (Input.GetButton("Circle")) {
             Game.playerController.Dash();
             Game.anim.SetTrigger("dashTrigger");
         }
 
         // test
-        if (Input.GetButtonDown("Square")) {
-            //Game.anim.Play("playerAttack_Knives_ground");
+        if (Input.GetButton("Square")) {
+            Game.anim.Play("Attack Logic");
+            Game.anim.SetBool("attacking", true);
         }
 
         // animator parameters
