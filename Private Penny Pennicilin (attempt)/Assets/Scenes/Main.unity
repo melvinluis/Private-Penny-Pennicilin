@@ -522,8 +522,8 @@ BoxCollider2D:
   m_Offset: {x: -0.006462071, y: 0.31}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.47, y: 0}
-    oldSize: {x: 0.26, y: 0.6}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.23, y: 0.6}
     newSize: {x: 0.23, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 405099891}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6adb24aa6619fa94e8de052b358df3b7, type: 3}
   m_Name: 
@@ -550,7 +550,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   groundRadius: 0.06
-  weaponStatus: 
+  weaponLevel: 
   weaponSelected: 0
   rb2d: {fileID: 0}
   anim: {fileID: 0}

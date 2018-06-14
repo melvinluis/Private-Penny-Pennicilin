@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 
     private bool grounded = false; // true if player is on the ground
 
-    public int[] weaponStatus; // weapon upgrade status, checked when switching weapons and for switching to animations
+    public int[] weaponLevel; // weapon upgrade status, checked when switching weapons and for switching to animations
     public int weaponSelected; // which weapon is currently selected
 
     // references
@@ -26,8 +26,8 @@ public class PlayerController : MonoBehaviour {
 	}
 
     private void Start() {
-        weaponStatus = new int[] { 0, 0, 0 }; // max lv2 per weapon; -1 is locked weapon
-        //weaponStatus = new int[] { 0, -1, -1 }; 
+        weaponLevel = new int[] { 0, 0, 0 }; // max lv2 per weapon; -1 is locked weapon
+        //weaponLevel = new int[] { 0, -1, -1 }; 
         weaponSelected = 0; // default weapon
     }
 
@@ -48,12 +48,11 @@ public class PlayerController : MonoBehaviour {
         rb2d.AddForce(sr.flipX ? Game.dashForce : -Game.dashForce);
     }
 
-    public Vector2 GetWeaponStatus() {
-        // returns weapon status (used in animator for switching states)
-        return new Vector2(weaponSelected, weaponStatus[weaponSelected]);
+    public void SwitchWeapon() {
+        while (weaponLevel[weaponSelected = weaponSelected + 1 > 2 ? 0 : weaponSelected + 1] == -1);
     }
 
-    public void SwitchWeapon() {
-        while (weaponStatus[weaponSelected + 1 > 2 ? 0 : weaponSelected++] == -1) ;
+    public void UpgradeWeapon(int weapon) {
+        weaponLevel[weapon]++;
     }
 }

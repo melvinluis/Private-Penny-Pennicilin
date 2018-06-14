@@ -4,7 +4,6 @@ using UnityEngine;
 using Global;
 
 public class MovingStates : StateMachineBehaviour {
-
     private Vector2 move;
 
     // OnStateEnter is called before OnStateEnter is called on any state inside this state machine
@@ -41,7 +40,7 @@ public class MovingStates : StateMachineBehaviour {
             Game.anim.SetTrigger("dashTrigger");
         }
 
-        // test
+        // attack
         if (Input.GetButton("Square")) {
             Game.anim.Play("Attack Logic");
             Game.anim.SetBool("attacking", true);
