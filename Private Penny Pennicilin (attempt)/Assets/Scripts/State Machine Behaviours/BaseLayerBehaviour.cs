@@ -5,12 +5,11 @@ using Global;
 
 public class BaseLayerBehaviour : StateMachineBehaviour {
     private bool wasPressed = false;
-    // OnStateEnter is called before OnStateEnter is called on any state inside this state machine
+
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 	
 	}
 
-	// OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine
 	override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         // switch weapon
         if (Input.GetButton("Triangle") && !wasPressed) {
@@ -18,35 +17,22 @@ public class BaseLayerBehaviour : StateMachineBehaviour {
             Game.playerController.SwitchWeapon();
             Game.anim.SetInteger("weaponSelected", Game.playerController.weaponSelected);
             Game.anim.SetInteger("weaponLevel", Game.playerController.weaponLevel[Game.playerController.weaponSelected]);
-            Game.anim.Play("Attack Logic");
+            Game.anim.Play("Attack Logic"); // switch weapon while attacking
         }
         if (!Input.GetButton("Triangle") && wasPressed) {
             wasPressed = false;
         }
+
+
+#if UNITY_EDITOR
+        if (Input.GetButtonDown("L1")) {
+            Game.playerController.UpgradeWeapon(Game.anim.GetInteger("weaponSelected"));
+            Game.anim.SetInteger("weaponLevel", Game.playerController.weaponLevel[Game.playerController.weaponSelected]);
+        }
+#endif
     }
 
-	// OnStateExit is called before OnStateExit is called on any state inside this state machine
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 	
 	}
-
-	// OnStateMove is called before OnStateMove is called on any state inside this state machine
-	//override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-	//
-	//}
-
-	// OnStateIK is called before OnStateIK is called on any state inside this state machine
-	//override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-	//
-	//}
-
-	// OnStateMachineEnter is called when entering a statemachine via its Entry Node
-	//override public void OnStateMachineEnter(Animator animator, int stateMachinePathHash){
-	//
-	//}
-
-	// OnStateMachineExit is called when exiting a statemachine via its Exit Node
-	//override public void OnStateMachineExit(Animator animator, int stateMachinePathHash) {
-	//
-	//}
 }

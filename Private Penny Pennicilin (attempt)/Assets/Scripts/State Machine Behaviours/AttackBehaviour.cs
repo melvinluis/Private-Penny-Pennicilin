@@ -24,8 +24,18 @@ public class AttackBehaviour : StateMachineBehaviour {
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         base.OnStateUpdate(animator, stateInfo, layerIndex);
 
-        // not allowed to move!
-        if (Game.playerController.CheckGrounded()) Game.rb2d.velocity = new Vector2(0, Game.rb2d.velocity.y);
+        if (Game.playerController.CheckGrounded()) {
+            // can change direction when grounded
+            if (Input.GetAxisRaw("LeftStickX") == 1) { // if there's input, change attack direction
+                Game.sr.flipX = true;
+            }
+            else if (Input.GetAxisRaw("LeftStickX") == -1) {
+                Game.sr.flipX = false;
+            }
+
+            // not allowed to move!
+            Game.rb2d.velocity = new Vector2(0, Game.rb2d.velocity.y);
+        }
 
         // exit attacking
         if (!Input.GetButton("Square")) {
@@ -33,6 +43,12 @@ public class AttackBehaviour : StateMachineBehaviour {
         }
 
         // take damage
+
+        // can still dash
+        if (Input.GetButtonDown("Circle")) {
+            if (Game.playerController.CheckGrounded()) Game.anim.Play("playerDash_ground");
+            else Game.anim.Play("playerDash_midair");
+        }
 
         // set grounded
         Game.anim.SetBool("grounded", Game.playerController.CheckGrounded());

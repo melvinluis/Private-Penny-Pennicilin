@@ -8,7 +8,8 @@ public class MovingStates : StateMachineBehaviour {
 
     // OnStateEnter is called before OnStateEnter is called on any state inside this state machine
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-
+        //reset firing timer
+        Game.knivesTimer = Game.knivesInterval + .1f;
     }
 
     // OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine
@@ -36,7 +37,6 @@ public class MovingStates : StateMachineBehaviour {
 
         // dash
         if (Input.GetButton("Circle")) {
-            Game.playerController.Dash();
             Game.anim.SetTrigger("dashTrigger");
         }
 

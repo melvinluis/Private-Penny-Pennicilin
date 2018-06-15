@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void UpgradeWeapon(int weapon) {
-        weaponLevel[weapon]++;
+        int plusone = weaponLevel[weapon] + 1;
+        weaponLevel[weapon] = plusone > 2 ? 0 : plusone; // reset to 0 for debugging only
     }
 }
