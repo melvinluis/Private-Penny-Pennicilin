@@ -15,19 +15,24 @@ public class BaseLayerBehaviour : StateMachineBehaviour {
         if (Input.GetButton("Triangle") && !wasPressed) {
             wasPressed = true;
             Game.playerController.SwitchWeapon();
-            Game.anim.SetInteger("weaponSelected", Game.playerController.weaponSelected);
-            Game.anim.SetInteger("weaponLevel", Game.playerController.weaponLevel[Game.playerController.weaponSelected]);
-            Game.anim.Play("Attack Logic"); // switch weapon while attacking
         }
         if (!Input.GetButton("Triangle") && wasPressed) {
             wasPressed = false;
         }
 
+        // flip Penny depending on movement speed
+        if (Input.GetAxisRaw(Game.horizontalAxis) == 1)
+            Game.rb2d.transform.localRotation = Quaternion.Euler(0, 0, 0);
+        else if (Input.GetAxisRaw(Game.horizontalAxis) == -1) {
+            Game.rb2d.transform.localRotation = Quaternion.Euler(0, 180, 0);
+        }
+
+        // set grounded
+        Game.anim.SetBool("grounded", Game.playerController.CheckGrounded());
 
 #if UNITY_EDITOR
         if (Input.GetButtonDown("L1")) {
-            Game.playerController.UpgradeWeapon(Game.anim.GetInteger("weaponSelected"));
-            Game.anim.SetInteger("weaponLevel", Game.playerController.weaponLevel[Game.playerController.weaponSelected]);
+            Game.playerController.UpgradeWeapon();
         }
 #endif
     }

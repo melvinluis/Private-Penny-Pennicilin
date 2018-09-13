@@ -8,7 +8,8 @@ public class KnivesBehaviour : StateMachineBehaviour {
 
     // just for reference
     private GameObject temp;
-    private GameObject whatToSpawn;
+    private Transform whatToSpawn;
+    private int currentIndex = 0;
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         Game.knivesTimer += Time.deltaTime;
@@ -19,32 +20,32 @@ public class KnivesBehaviour : StateMachineBehaviour {
         }
     }
 
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        
-    }
-
     private void Spawn() {
         // makes the projectile
         // we're sure that if the state machine enters this state, it's the knife weapon that's selected
         switch (Game.anim.GetInteger("weaponLevel")) {
             case 0:
-                whatToSpawn = lv0;
+                whatToSpawn = Game.knives0;
                 break;
             case 1:
-                whatToSpawn = lv1;
+                whatToSpawn = Game.knives1;
                 break;
             case 2:
-                whatToSpawn = lv2;
+                whatToSpawn = Game.knives2;
                 break;
         }
 
-        if (Game.sr.flipX) {
-            temp = Instantiate(whatToSpawn, Game.projectileSpawnPoint_R.position, Quaternion.identity);
+        temp = whatToSpawn.GetChild(currentIndex).gameObject;
+        temp.transform.position = Game.projectileSpawnPoint.position;
+        if (Game.playerController.IsFacingRight()) {
             temp.GetComponent<KnifeProjectile>().SetVelocity(Game.knivesVelocity);
+            temp.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else {
-            temp = Instantiate(whatToSpawn, Game.projectileSpawnPoint_L.position, Quaternion.identity);
             temp.GetComponent<KnifeProjectile>().SetVelocity(-Game.knivesVelocity);
+            temp.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
+
+        currentIndex = currentIndex + 1 == Game.maxKnivesInPool ? 0 : currentIndex + 1;
     }
 }

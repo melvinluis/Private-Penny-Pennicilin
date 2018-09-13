@@ -20,7 +20,7 @@ public class GroundedStates : StateMachineBehaviour {
         }
 
         // transition between running and idle states here depending on left stick input
-        Game.anim.SetBool("running", Input.GetAxisRaw("LeftStickX") == 0 ? false : true);
+        Game.anim.SetBool("running", Input.GetAxisRaw(Game.horizontalAxis) == 0 ? false : true);
     }
 
     // OnStateExit is called before OnStateExit is called on any state inside this state machine

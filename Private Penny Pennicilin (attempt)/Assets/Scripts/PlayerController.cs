@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
     public Transform[] groundCheck; // transform locations for checking grounded
     public LayerMask groundMask; // layer for checking against grounded or not
     public float groundRadius; // radius of circle around groundCheck for checking grounded or not
+    public float playerVelocity; // current player velocity
 
     private bool grounded = false; // true if player is on the ground
 
@@ -17,17 +18,15 @@ public class PlayerController : MonoBehaviour {
     // references
     [HideInInspector] public Rigidbody2D rb2d;
     [HideInInspector] public Animator anim;
-    [HideInInspector] public SpriteRenderer sr;
 
     void Awake () {
+        playerVelocity = 0;
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>(); // flipX true = facing right
 	}
 
-    private void Start() {
+    void Start() {
         weaponLevel = new int[] { 0, 0, 0 }; // max lv2 per weapon; -1 is locked weapon
-        //weaponLevel = new int[] { 0, -1, -1 }; 
         weaponSelected = 0; // default weapon
     }
 
@@ -41,19 +40,29 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void Jump() {
+        rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
         rb2d.AddForce(Game.jumpForce);
     }
 
     public void Dash() {
-        rb2d.AddForce(sr.flipX ? Game.dashForce : -Game.dashForce);
+        rb2d.velocity = new Vector2(0, rb2d.velocity.y);
+        rb2d.AddForce(rb2d.transform.rotation.y == 0 ? Game.dashForce : -Game.dashForce);
     }
 
     public void SwitchWeapon() {
         while (weaponLevel[weaponSelected = weaponSelected + 1 > 2 ? 0 : weaponSelected + 1] == -1);
+        anim.SetInteger("weaponSelected", Game.playerController.weaponSelected);
+        anim.SetInteger("weaponLevel", Game.playerController.weaponLevel[Game.playerController.weaponSelected]);
+        anim.Play("Attack Logic"); // switch weapon while attacking
     }
 
-    public void UpgradeWeapon(int weapon) {
-        int plusone = weaponLevel[weapon] + 1;
-        weaponLevel[weapon] = plusone > 2 ? 0 : plusone; // reset to 0 for debugging only
+    public void UpgradeWeapon() {
+        int plusone = weaponLevel[weaponSelected] + 1;
+        weaponLevel[weaponSelected] = plusone > 2 ? 0 : plusone; // reset to 0 for debugging only
+        anim.SetInteger("weaponLevel", Game.playerController.weaponLevel[weaponSelected]);
+    }
+
+    public bool IsFacingRight() {
+        return rb2d.transform.rotation.y == 0;
     }
 }

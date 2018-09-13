@@ -4,36 +4,17 @@ using UnityEngine;
 using Global;
 
 public class MovingStates : StateMachineBehaviour {
-    private Vector2 move;
-
     // OnStateEnter is called before OnStateEnter is called on any state inside this state machine
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         //reset firing timer
-        Game.knivesTimer = Game.knivesInterval + .1f;
+        Game.knivesTimer = Game.knivesInterval + .1f; // can be exploited by tapping rapidly if the timer was reset in this state, should be tracked elsewhere
     }
 
     // OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        // left stick input
-        if (Input.GetAxisRaw("LeftStickX") == 0) {
-            Game.rb2d.velocity = new Vector2(0, Game.rb2d.velocity.y);
-        }
-        else {
-            // input from left stick, animate
-            move.x = Input.GetAxisRaw("LeftStickX") * Game.moveSpeed;
-            float moveSpeedAbs = Mathf.Abs(move.x);
-
-            // flip sprite depending on movement speed (last sprite state will be kept)
-            if (moveSpeedAbs > 0.01f) {
-                if (move.x < 0.01f)
-                    Game.sr.flipX = false;
-                else if (move.x > 0.01f)
-                    Game.sr.flipX = true;
-            }
-
-            // set rigidbody velocity
-            Game.rb2d.velocity = new Vector2(move.x, Game.rb2d.velocity.y);
-        }
+        // set rigidbody velocity
+        Game.playerController.playerVelocity = Input.GetAxisRaw(Game.horizontalAxis) * Game.moveSpeed;
+        Game.rb2d.velocity = new Vector2(Game.playerController.playerVelocity, Game.rb2d.velocity.y);
 
         // dash
         if (Input.GetButton("Circle")) {
@@ -46,8 +27,6 @@ public class MovingStates : StateMachineBehaviour {
             Game.anim.SetBool("attacking", true);
         }
 
-        // animator parameters
-        Game.anim.SetBool("grounded", Game.playerController.CheckGrounded());
     }
 
     // OnStateExit is called before OnStateExit is called on any state inside this state machine

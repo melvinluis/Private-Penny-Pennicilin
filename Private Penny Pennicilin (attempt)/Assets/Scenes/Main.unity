@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -158,6 +158,207 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &3887934 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1061818552}
+--- !u!1 &37715924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 37715925}
+  m_Layer: 0
+  m_Name: KnivesPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &37715925
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 37715924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 581792034}
+  - {fileID: 1647920753}
+  - {fileID: 744439819}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &37902081
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &50211813
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &69252502 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 623517090}
+--- !u!4 &81024883 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 50211813}
+--- !u!1001 &81579427
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &82077054
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &82901765 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1381103326}
+--- !u!1001 &83022581
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &113925334
 Prefab:
@@ -196,7 +397,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -204,6 +405,188 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &138112130
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &177169274
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &200541255
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &220983749
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &226356614
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &249510904
 Prefab:
@@ -242,7 +625,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -251,34 +634,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &296324470
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 296324471}
-  m_Layer: 9
-  m_Name: projectileSpawnL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &296324471
+--- !u!4 &263195838 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 296324470}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2909999, y: 0.28699994, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 405099894}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 220983749}
 --- !u!1001 &302669481
 Prefab:
   m_ObjectHideFlags: 0
@@ -316,7 +676,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -324,6 +684,36 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &307131746
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &317520530
 Prefab:
@@ -362,7 +752,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -370,6 +760,98 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &325917343
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &334404103
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &341829216
 Prefab:
@@ -408,7 +890,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -417,6 +899,41 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &347503211
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &387126813 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1021250562}
 --- !u!1 &405099891
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,13 +1024,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 405099891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.78, y: 2.595, z: 0}
+  m_LocalPosition: {x: 0, y: 0.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 732154613}
   - {fileID: 781332278}
   - {fileID: 1486649589}
-  - {fileID: 296324471}
+  - {fileID: 1888892286}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -549,7 +1066,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006462071, y: 0.31}
+  m_Offset: {x: 0.0079489555, y: 0.29764777}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -560,7 +1077,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13990712, y: 0.5970875}
+  m_Size: {x: 0.11108507, y: 0.57238305}
   m_EdgeRadius: 0
 --- !u!114 &405099897
 MonoBehaviour:
@@ -580,11 +1097,494 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   groundRadius: 0.06
+  playerVelocity: 0
   weaponLevel: 
   weaponSelected: 0
   rb2d: {fileID: 0}
   anim: {fileID: 0}
-  sr: {fileID: 0}
+--- !u!4 &419140020 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 839972569}
+--- !u!4 &421861248 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 463902465}
+--- !u!1001 &428022008
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &463902465
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &495563307 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 767498274}
+--- !u!1001 &497938528
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &502356755
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &525398007 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 2064060264}
+--- !u!4 &542366375 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 347503211}
+--- !u!4 &560086840 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1228881524}
+--- !u!1001 &568212426
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &570886875 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 2032928495}
+--- !u!1 &581792033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 581792034}
+  m_Layer: 0
+  m_Name: 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &581792034
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581792033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1296389967}
+  - {fileID: 2104382548}
+  - {fileID: 1547132142}
+  - {fileID: 1837125872}
+  - {fileID: 560086840}
+  - {fileID: 920843092}
+  - {fileID: 1283440422}
+  - {fileID: 1917312290}
+  - {fileID: 1891431782}
+  - {fileID: 1899064012}
+  - {fileID: 542366375}
+  - {fileID: 788905869}
+  - {fileID: 69252502}
+  - {fileID: 890013665}
+  - {fileID: 978756084}
+  - {fileID: 2104151194}
+  - {fileID: 655540734}
+  - {fileID: 263195838}
+  - {fileID: 1286695263}
+  - {fileID: 3887934}
+  m_Father: {fileID: 37715925}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &583231660 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1222727552}
+--- !u!4 &603132319 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1074358762}
+--- !u!1001 &623517090
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &645362778 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1202090578}
+--- !u!4 &649885039 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 334404103}
+--- !u!4 &655540734 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 82077054}
+--- !u!4 &656074283 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1428092889}
+--- !u!1001 &658652577
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &688954477
 Prefab:
   m_ObjectHideFlags: 0
@@ -622,7 +1622,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -630,6 +1630,36 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &708815712
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &732154612
 GameObject:
@@ -659,6 +1689,151 @@ Transform:
   m_Father: {fileID: 405099894}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &734849800
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &740792859 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1393848476}
+--- !u!1 &744439818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 744439819}
+  m_Layer: 0
+  m_Name: 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &744439819
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744439818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 603132319}
+  - {fileID: 991027408}
+  - {fileID: 649885039}
+  - {fileID: 387126813}
+  - {fileID: 1197208640}
+  - {fileID: 1769900488}
+  - {fileID: 421861248}
+  - {fileID: 495563307}
+  - {fileID: 978492205}
+  - {fileID: 656074283}
+  - {fileID: 2120179435}
+  - {fileID: 1726489247}
+  - {fileID: 645362778}
+  - {fileID: 1354841009}
+  - {fileID: 525398007}
+  - {fileID: 1572056453}
+  - {fileID: 803939701}
+  - {fileID: 1456677286}
+  - {fileID: 1726257341}
+  - {fileID: 1762883371}
+  m_Father: {fileID: 37715925}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &767498274
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &781332277
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,6 +1862,21 @@ Transform:
   m_Father: {fileID: 405099894}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &788905869 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1844589495}
+--- !u!4 &803939701 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1704454359}
+--- !u!4 &820188034 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 428022008}
 --- !u!1001 &835360741
 Prefab:
   m_ObjectHideFlags: 0
@@ -724,7 +1914,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -733,6 +1923,428 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &839972569
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &841649348
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &861057137 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 200541255}
+--- !u!4 &890013665 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 37902081}
+--- !u!4 &920843092 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1215089233}
+--- !u!1001 &958663571
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &978492205 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 568212426}
+--- !u!4 &978756084 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1354051851}
+--- !u!4 &991027408 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 177169274}
+--- !u!1001 &1021250562
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1021282470
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1030480244 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1080111469}
+--- !u!1001 &1061818552
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1074358762
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1080111469
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1113831734
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1123310518 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 138112130}
 --- !u!1 &1145277026
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,12 +2435,17 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1145277026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.93, y: 1.41, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1156642396 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1285077965}
 --- !u!1001 &1185886388
 Prefab:
   m_ObjectHideFlags: 0
@@ -866,7 +2483,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -874,6 +2491,103 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1197208640 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777624854}
+--- !u!1001 &1202090578
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1215089233
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1219242185
 GameObject:
@@ -981,6 +2695,66 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 8.5}
   m_EdgeRadius: 0
+--- !u!1001 &1222727552
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1228881524
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1247489329
 Prefab:
   m_ObjectHideFlags: 0
@@ -1018,7 +2792,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1026,6 +2800,198 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1279234349
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1283440422 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 708815712}
+--- !u!1001 &1285077965
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1286695263 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1995023461}
+--- !u!4 &1296389967 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1645419153}
+--- !u!1001 &1354051851
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1354841009 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 497938528}
+--- !u!1001 &1381103326
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1391411750
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1393848476
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1404525388
 Prefab:
@@ -1064,7 +3030,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1110,7 +3076,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1119,6 +3085,73 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1428092889
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1456677286 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 841649348}
 --- !u!1 &1486649588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +3161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486649589}
   m_Layer: 9
-  m_Name: projectileSpawnR
+  m_Name: projectileSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1184,7 +3217,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1192,6 +3225,56 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1547132142 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 2088706490}
+--- !u!4 &1562524825 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 325917343}
+--- !u!4 &1571739037 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1663786702}
+--- !u!4 &1572056453 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1824122927}
+--- !u!1001 &1634041573
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1637004819
 Prefab:
@@ -1230,7 +3313,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1238,6 +3321,110 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1645419153
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1647920752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1647920753}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1647920753
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647920752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1562524825}
+  - {fileID: 1030480244}
+  - {fileID: 81024883}
+  - {fileID: 2120016622}
+  - {fileID: 1123310518}
+  - {fileID: 1156642396}
+  - {fileID: 583231660}
+  - {fileID: 1873979421}
+  - {fileID: 1970875828}
+  - {fileID: 1985138855}
+  - {fileID: 1723162913}
+  - {fileID: 570886875}
+  - {fileID: 82901765}
+  - {fileID: 740792859}
+  - {fileID: 419140020}
+  - {fileID: 861057137}
+  - {fileID: 820188034}
+  - {fileID: 1718243415}
+  - {fileID: 1571739037}
+  - {fileID: 1762482155}
+  m_Father: {fileID: 37715925}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1663786702
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1681854293
 Prefab:
@@ -1276,10 +3463,134 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1694302745
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1704454359
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1704664354
 Prefab:
@@ -1318,7 +3629,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1327,6 +3638,26 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1718243415 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 307131746}
+--- !u!4 &1723162913 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1279234349}
+--- !u!4 &1726257341 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 502356755}
+--- !u!4 &1726489247 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1694302745}
 --- !u!1001 &1728390728
 Prefab:
   m_ObjectHideFlags: 0
@@ -1364,7 +3695,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1372,6 +3703,371 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1748771681
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1762482155 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 83022581}
+--- !u!4 &1762883371 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 1748771681}
+--- !u!4 &1769900488 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 958663571}
+--- !u!1001 &1777624854
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1799645834
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1824122927
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1837125872 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 734849800}
+--- !u!1001 &1844589495
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1873979421 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020018008}
+--- !u!1 &1888892285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1888892286}
+  - component: {fileID: 1888892287}
+  m_Layer: 11
+  m_Name: AttackCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1888892286
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1888892285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 405099894}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1888892287
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1888892285}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18826455, y: 0.16273725}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6234709, y: 0.31714225}
+  m_EdgeRadius: 0
+--- !u!4 &1891431782 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1903036311}
+--- !u!4 &1899064012 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 81579427}
+--- !u!1001 &1903036311
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1911910500
 Prefab:
@@ -1410,7 +4106,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1419,6 +4115,21 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1917312290 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 226356614}
+--- !u!4 &1970875828 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1634041573}
+--- !u!4 &1985138855 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1021282470}
 --- !u!1001 &1991803542
 Prefab:
   m_ObjectHideFlags: 0
@@ -1456,7 +4167,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1476,6 +4187,36 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1995023461
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &2001861068
 Prefab:
@@ -1514,7 +4255,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1614,7 +4355,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4475607402586280, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1903946562260950, guid: 721197c1fc5be1c4c9993bd9ee11b9d2, type: 2}
       propertyPath: m_Name
@@ -1651,5 +4392,177 @@ Transform:
   - {fileID: 1219242186}
   - {fileID: 2011621511}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2020018008
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2032928495
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1647920753}
+    m_Modifications:
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1221177305736430, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b05b68ed1f2f16b469cfc76425ff4896, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2064060264
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 744439819}
+    m_Modifications:
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_2 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.37798998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.94496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749153988012674, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9034c2b75113e54188fa9b13cee7e44, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2088706490
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581792034}
+    m_Modifications:
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_Name
+      value: playerKnives_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868940669848522, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 25778c50351aadd4e928bc75ef3c96d3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2104151194 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1799645834}
+--- !u!4 &2104382548 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4765333766310566, guid: 25778c50351aadd4e928bc75ef3c96d3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1391411750}
+--- !u!4 &2120016622 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4264181972103002, guid: b05b68ed1f2f16b469cfc76425ff4896,
+    type: 2}
+  m_PrefabInternal: {fileID: 1113831734}
+--- !u!4 &2120179435 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4442823209773292, guid: b9034c2b75113e54188fa9b13cee7e44,
+    type: 2}
+  m_PrefabInternal: {fileID: 658652577}
