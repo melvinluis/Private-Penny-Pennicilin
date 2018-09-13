@@ -27,8 +27,8 @@ public class AttackBehaviour : StateMachineBehaviour {
 
         // exit attacking
         if (!Input.GetButton("Square")) {
-            //Game.anim.Play("playerIdle");
-            // need to manually transition because simply changing "attacking" to false delays the transition until after the attack animation is finished, which introduces a noticeable delay
+            // Game.anim.Play("playerIdle");
+            // manually transition because simply changing "attacking" to false delays the transition until after the attack animation is finished, which introduces a noticeable delay
             Game.anim.SetBool("attacking", false); 
         }
 

@@ -19,7 +19,7 @@ namespace Global {
         public static string horizontalAxis = "DPadX";
         //public static string horizontalAxis = "LeftStickX";
 
-        public static float knivesInterval = .15f; // time between next knife spawn / atkspd
+        public static float knivesInterval = .3f; // time between next knife spawn / atkspd
         public static Vector2 knivesVelocity = new Vector2(7f, 0);
         public static float knivesTimer = knivesInterval + .1f; // so projectile immediately spawns upon press
 

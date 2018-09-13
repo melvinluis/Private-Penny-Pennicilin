@@ -5,12 +5,10 @@ using Global;
 
 public class KnifeProjectile : MonoBehaviour {
     private Rigidbody2D rb2d;
-    private SpriteRenderer sr;
 
     public LayerMask collisionMask; // for damaging enemies and hitting level bounds
 	void Awake () {
         rb2d = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
 	}
 
     private void Update() {
